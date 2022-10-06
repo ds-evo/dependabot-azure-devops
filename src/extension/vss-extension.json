@@ -3,7 +3,7 @@
     "id": "dependabot",
     "name": "Dependabot",
     "version": "0.1.0",
-    "publisher": "tingle-software",
+    "publisher": "ds-evo",
     "public": false,
     "targets": [
         {
@@ -18,11 +18,11 @@
         "default": "images/icon.png"
     },
     "links": {
-        "support": { "uri": "https://github.com/tinglesoftware/dependabot-azure-devops/issues" }
+        "support": { "uri": "https://github.com/dsevo/dependabot-azure-devops/issues" }
     },
     "repository": {
         "type": "git",
-        "uri": "https://github.com/tinglesoftware/dependabot-azure-devops"
+        "uri": "https://github.com/dsevo/dependabot-azure-devops"
     },
     "content": {
         "details": { "path": "README.md" }

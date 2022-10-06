@@ -117,7 +117,6 @@ jobs:
         --vsix $GITHUB_WORKSPACE/dev/*.vsix
         --auth-type pat
         --token ${{ secrets.AZURE_DEVOPS_EXTENSION_TOKEN }}
-        --share-with tingle
 
     - name: Publish to marketplace (prod)
       if: startsWith(github.ref, 'refs/tags/')

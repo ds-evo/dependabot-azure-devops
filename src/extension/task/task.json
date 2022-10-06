@@ -244,7 +244,7 @@
       "label": "Docker Container repository",
       "type": "string",
       "helpMarkDown": "The docker container repository to use when pulling the docker container used by the task if needed. This can be useful if the default container requires customizations such as custom certs.",
-      "defaultValue": "tingle/dependabot-azure-devops",
+      "defaultValue": "dsevo/dependabot-azure-devops",
       "required": true,
       "groupName": "advanced"
     },
