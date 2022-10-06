@@ -42,8 +42,8 @@ jobs:
       with:
         useConfigFile: true
 
-    - name: Pull Docker base image & warm Docker cache
-      run: docker pull "$IMAGE_REPO/$IMAGE_NAME:latest"
+    # - name: Pull Docker base image & warm Docker cache
+    #   run: docker pull "$IMAGE_REPO/$IMAGE_NAME:latest"
 
     - name: Build image
       run: |
